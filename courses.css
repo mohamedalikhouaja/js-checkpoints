@@ -1,0 +1,65 @@
+#header{
+    background-image:
+    Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%);padding-block-end:120px
+}
+div{
+    display: flex;
+     align-content: center;
+     justify-content:center;
+     align-items:center;
+  
+}
+
+#logo{
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:120px;
+    height:120px;
+}
+#link{
+    display:flex;
+    justify-content: space-around;
+    padding-top:-100px;
+    position:relative
+}
+
+#fond{
+    padding-top: 30px;
+    width: 100%;
+    height: 300px;
+    /* background-attachment: fixed; */
+    background-image: url(https://www.mozilla.org/media/img/logos/firefox/logo-quantum.9c5e96634f92.png);  
+    background-size: cover;
+    position:relative;
+    padding-top:10%
+    
+    
+}
+#courses{
+    font-size:50px;
+    color:white
+}
+a{
+    text-decoration:none;
+    color: rgba(255,0,0,.8); 
+    font-size:30px;
+    margin-top:80px;
+    text-decoration:none;
+    color:rgba(255,0,0,.8);
+    font-weight: bold;
+   
+    
+}
+#main{
+    background-image: Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+h1{
+    color:rgba(0,0,255,.8);
+    font-weight:bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
