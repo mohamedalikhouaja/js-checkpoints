@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <title>checkpoint</title>
+        <link rel="stylesheet" href="css/courses.css" type="text/css" />
+</head>
+
+<body>
+        <center>
+                <header id="header">
+
+                        <div id="logo">
+                                <img src="images/logo.jpg" style="width:200px;height:100px;margin-top: 20px"></a>
+                        </div>
+
+                        <div id="link">
+                                <a href="index.html" title="vous ne le regrettez pas!">Acceuil</a>
+
+                                <a href="courses.html" title="vous ne le regrettez pas!">Courses</a>
+
+                                <a href="contact.html" title="vous ne le regrettez pas!">Contact</a>
+                        </div>
+
+                </header>
+        </center>
+        <center>
+                <div id=fond>
+                        <h1 id="courses">
+                                Courses
+                        </h1>
+                </div>
+        </center>
+        <center>
+                <section id="main">
+                        <div >
+
+
+                                <img src="images/image 4.jpg"  class="d-block w-100" alt="">
+
+                                <img src="images/image 5.jpg" class="d-block w-100" alt="">
+
+                                <img src="images/image 6.jpg" class="d-block w-100" alt="">
+                        </div>
+
+                        <div style=" display: flex; align-content: center;">
+
+                                <img src="images/image 7.jpg" class="d-block w-100" alt="">
+
+                                <img src="images/image 8.jpg" class="d-block w-100" alt="">
+
+                                <img src="images/image 9.jpg" class="d-block w-100" alt="">
+                        </div>
+                        <div>
+
+
+                                <img src="images/image 10.jpg" class="d-block w-100" alt="">
+
+                                <img src="images/image 11.jpg" class="d-block w-100" alt="">
+
+                                <img src="images/image 12.jpg" class="d-block w-100" alt="">
+
+                        </div>
+
+                        <h1>Feedback</h1>
+                        Texte a modifier : <br>
+                        <textarea rows="10px" cols="40px"id="texte" type="text"></textarea> <br> <br>
+                        <input type="button" value="italic"  onclick="italique()"/>
+                        <input type="button" value="underline" onclick="souligne()"/>
+                        <input type="button" value="bold"  onclick="bold()" />
+                        <input type="button" value="delete" onclick="effacer()" />
+                        <br>
+                        <label for="size"></label>
+                        <select name="size" id="size" onchange="changersize();">
+                                <option value="10" selected>10</option>
+                                <option value="12">12</option>
+                                <option value="14">14</option>
+                                <option value="16">16</option>
+                                <option value="18">18</option>
+                                <option value="20">20</option>
+                                <option value="22">22</option>
+                                <option value="24">24</option>
+                        </select>
+                        <label for="color"></label>
+
+                        <select name="color" id="color" onchange="changercouleur();">
+
+                            <option value="blue" selected>black</option>
+                    
+                            <option value="blue" selected>bleu</option>
+                    
+                            <option value="gray">gray</option>
+                    
+                            <option value="red">red</option>
+                    
+                            <option value="green">green</option>
+
+                            <option value="pink">pink</option>
+
+                            <option value="gold">gold</option>
+                    
+                        </select>
+                        <label for="size"></label>
+                        <select name="font" id="font" onchange="changerfont();">
+
+                                <option value="arial" selected>arial</option>
+                                <option value="roboto">roboto</option>
+                                <option value="Bookman Old Style">Bookman Old Style</option>
+                                <option value="Comic Sans MS">Comic Sans MS</option>
+                                <option value=" monospace"> monospace</option>
+                        </select>
+                        </div>
+        </center>
+        </section>
+
+</body>
+<script src="main.js"></script>
+
+</html>
